@@ -1,0 +1,14 @@
+[package]
+name = "map_algebra"
+version = "0.1.0"
+authors = ["André Rocha <rocha.matcomp@gmail.com>"]
+repository = "https://github.com/rochamatcomp"
+license = "MIT"
+readme = "README.md"
+description = "Simple map algebra with raster files"
+
+[dependencies]
+gdal = "*"
+ndarray = "*"
+#approx = {git = "https://github.com/brendanzab/approx"}
+approx = "*"
