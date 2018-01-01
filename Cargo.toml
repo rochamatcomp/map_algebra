@@ -8,7 +8,5 @@ readme = "README.md"
 description = "Simple map algebra with raster files"
 
 [dependencies]
-gdal = "*"
-ndarray = "*"
-#approx = {git = "https://github.com/brendanzab/approx"}
-approx = "*"
+#raster-mapping = {git = "https://github.com/rochamatcomp/raster-mapping"} # Don't works beause of credentials.
+raster-mapping = {path = "../raster-mapping"}
